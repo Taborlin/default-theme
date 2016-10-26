@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Taborlin/default-theme.git"
+    "url": "git+https://github.com/topcoat/topdoc-default-template.git"
   },
   "keywords": [
     "topdoc-theme"
@@ -19,9 +19,9 @@
   "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Taborlin/default-theme/issues"
+    "url": "https://github.com/topcoat/topdoc-default-template/issues"
   },
-  "homepage": "https://github.com/Taborlin/default-theme#readme",
+  "homepage": "https://github.com/topcoat/topdoc-default-template#readme",
   "dependencies": {
     "fs-extra": "^0.30.0",
     "glob": "^7.1.1",
