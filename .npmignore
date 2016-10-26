@@ -1,5 +1,4 @@
 src/
-test/
 .*
 coverage
 inch.json
