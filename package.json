@@ -1,6 +1,6 @@
 {
   "name": "topdoc-default-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The most basic Topdoc theme.",
   "main": "index.js",
   "scripts": {
