@@ -38,7 +38,7 @@ function _replaceExt(npath, ext) {
  *  ```
  */
 export default function defaultTemplate(topDocument) {
-  const pugFile = topDocument.pugFile || path.resolve(__dirname, '..', 'template.pug');
+  const pugFile = topDocument.pugFile || path.resolve(__dirname, 'template.pug');
   try {
     topDocument.files.forEach((file) => {
       file.filename = _replaceExt(file.filename, '.html');
