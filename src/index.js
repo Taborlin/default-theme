@@ -52,7 +52,7 @@ export default function defaultTemplate(topDocument) {
       pugFile,
       { document: topDocument }
     );
-    fs.mkdirsSync(path.resolve(topDocument.destination, 'css', path.delimiter));
+    fs.mkdirsSync(path.resolve(topDocument.destination, 'css'));
     const cssDestination = path.resolve(topDocument.destination, 'css', topDocument.filename);
     fs.copySync(topDocument.source, cssDestination);
     const newFileName = topDocument.first ?
